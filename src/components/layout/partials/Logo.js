@@ -22,7 +22,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('../../../assets/images/dis-logo.svg')}
+            src={require('../../../assets/images/dis-logo.svg').default}
             alt="Open"
             width={88}
             height={88} />
