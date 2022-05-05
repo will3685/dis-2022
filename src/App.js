@@ -19,7 +19,7 @@ const trackPage = page => {
   ReactGA.pageview(page);
 };
 
-function App() {
+const App = () => {
 
   const childRef = useRef();
   let location = useLocation();
