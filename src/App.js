@@ -1,12 +1,13 @@
+import { Routes, Route } from 'react-router-dom'
+
+import Home from './views/Home';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        kIng
-      </div>
-    </div>
+   <Routes>
+     <Route path="/" element={<Home/>}/>
+   </Routes>
   );
 }
 
