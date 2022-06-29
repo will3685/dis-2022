@@ -3,7 +3,8 @@
 // Background color
 $header--bg: (
 	header: 		null,
-  header-color: get-color(personal, 5),
+  header-text: 		get-color( light, 4),
+  header-color: get-color(personal, 6),
 	menu-mobile:	darken(get-color(dark, 1), 3%)
 );
 

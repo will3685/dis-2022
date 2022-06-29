@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -84,7 +83,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          {/* <Logo /> */}
           {!hideNav &&
             <>
               <button
@@ -111,10 +110,19 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="/quem-somos" onClick={closeMenu}>Sobre o DIS</Link>
+                      <Link to="/quem-somos" onClick={closeMenu}>SOBRE NÓS</Link>
                     </li>
+                    <li>|</li>
                     <li>
-                      <Link to="/equipe" onClick={closeMenu}>Equipe</Link>
+                      <Link to="/equipe" onClick={closeMenu}>NOSSAS SOLUÇÕES</Link>
+                    </li>
+                    <li>|</li>
+                    <li>
+                      <Link to="/equipe" onClick={closeMenu}>TIME</Link>
+                    </li>
+                    <li>|</li>
+                    <li>
+                      <Link to="/equipe" onClick={closeMenu}>CONTATOS</Link>
                     </li>
                   </ul>
                 </div>
