@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
-import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
@@ -25,7 +24,7 @@ const Footer = ({
 
   const classes = classNames(
     'site-footer center-content-mobile',
-    topOuterDivider && 'has-top-divider',
+    // topOuterDivider && 'has-top-divider',
     className
   );
 
@@ -43,10 +42,6 @@ const Footer = ({
           <div className="footer-top space-between text-xxs">
             <Logo />
             <FooterSocial />
-          </div>
-          <div className="footer-bottom space-between text-xs invert-order-desktop">
-            <FooterNav />
-            <div className="footer-copyright link-site">Desenvolvido por <span role="img" aria-label='emot'>❤️</span> <a href="https://willtheard.dev" target="_blank" rel="noopener noreferrer" >Will Theard</a>.</div>
           </div>
         </div>
       </div>

@@ -19,15 +19,15 @@ const Logo = ({
       {...props}
       className={classes}
     >
-      <h1 className="m-0">
+      
         <Link to="/">
           <Image
             src={require('../../../assets/images/logo-svg.svg').default}
             alt="Open"
-            width={88}
-            height={88} />
+            width={140}
+            height={140} />
         </Link>
-      </h1>
+      
     </div>
   );
 }
