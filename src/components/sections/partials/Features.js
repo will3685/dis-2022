@@ -13,7 +13,7 @@ const Features = (props) => {
             <div className="features-tiles-item-image mb-16">
               <Image
                 src={src}
-                alt="Features tile icon 01"
+                alt="Features tile icon"
                 width={64}
                 height={64} />
             </div>

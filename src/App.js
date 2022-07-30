@@ -9,6 +9,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 import Home from './views/Home';
 import About from './views/About';
+import Solution from './views/Solution';
 import Equipe from './views/Equipe';
 
 
@@ -41,6 +42,7 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault}/>
           <AppRoute exact path="/quem-somos" component={About} layout={LayoutDefault} />
+          <AppRoute exact path="/nossa-solucao" component={Solution} layout={LayoutDefault} />
           <AppRoute exact path="/equipe" component={Equipe} layout={LayoutDefault} />
         </Switch>
       )} />

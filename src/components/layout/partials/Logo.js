@@ -22,10 +22,10 @@ const Logo = ({
       
         <Link to="/">
           <Image
-            src={require('../../../assets/images/logo-svg.svg').default}
+            src={require('../../../assets/images/LogoDis.png')}
             alt="Open"
-            width={140}
-            height={140} />
+            width={90}
+            height={90} />
         </Link>
       
     </div>

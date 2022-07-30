@@ -114,7 +114,7 @@ const Header = ({
                     </li>
                     <li>|</li>
                     <li>
-                      <Link to="/equipe" onClick={closeMenu}>NOSSAS SOLUÇÕES</Link>
+                      <Link to="/nossa-solucao" onClick={closeMenu}>NOSSAS SOLUÇÕES</Link>
                     </li>
                     <li>|</li>
                     <li>

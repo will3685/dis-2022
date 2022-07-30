@@ -31,10 +31,10 @@ $palette: (
 		success: #24E5AF
 	),
   personal: (
-    1: #E01E2B,
+    1: #db0e1e,
     2: #4D96FF,
     3: #015C83,
-    4: #73C1EB,
+    4: #85c5ee,
     5: #F3ECE2,
     6: #045781
     
@@ -49,6 +49,9 @@ $color: (
 	mid-contrast: 			get-color(light, 2),
 	low-contrast: 			get-color(light, 3),
 	primary:				get-color(primary, 3),
+  personal-first: get-color(personal, 6),
+  personal-second: get-color(personal, 1),
+  personal-third: get-color(personal, 4),
 	secondary:				get-color(secondary, 1),
 	error:					get-color(alert, error),
 	warning:				get-color(alert, warning),

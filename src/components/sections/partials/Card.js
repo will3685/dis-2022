@@ -18,9 +18,9 @@ const Card = ({
           <h3 className="mt-0 mb-12">
               {title}
           </h3>
-        <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+          <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
               {subtitle}
-        </div>
+          </div>
           <p className="m-0 inline-block">
             {description}
           </p>

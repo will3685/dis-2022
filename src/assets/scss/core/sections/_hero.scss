@@ -2,11 +2,11 @@
 
   height: 100vh;
 
-	.section-inner {
-		padding-top: $hero--padding-t__mobile;
-		padding-bottom: $hero--padding-b__mobile;
-	}
-}
+	// .section-inner {
+	// 	padding-top: $hero--padding-t__mobile;
+	// 	padding-bottom: $hero--padding-b__mobile;
+	// }
+} 
 
 .hero-inner {
 
@@ -55,13 +55,13 @@
 
 @include media( '>medium' ) {
 
-	.hero {
+	// .hero {
 
-		.section-inner {
-			padding-top: $hero--padding-t__desktop;
-			padding-bottom: $hero--padding-b__desktop;
-		}
-	}
+	// 	.section-inner {
+	// 		padding-top: $hero--padding-t__desktop;
+	// 		padding-bottom: $hero--padding-b__desktop;
+	// 	}
+	// }
 
 	.hero-inner {
 

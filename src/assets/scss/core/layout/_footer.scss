@@ -113,7 +113,7 @@
 .footer-social {
 
 	ul {
-		margin-right: -($footer-social--inner-padding + $footer-social--outer-padding-h);
+		// margin-right: -($footer-social--inner-padding + $footer-social--outer-padding-h);
 		margin-left: -($footer-social--inner-padding + $footer-social--outer-padding-h);
 	}
 
@@ -169,7 +169,7 @@
 	.footer-bottom {
 
 		> *:not(:last-child) {
-			margin-bottom: $footer-inner--padding-v;
+			margin-bottom: 0;
 		}
 	}
 }
@@ -191,6 +191,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+      margin-bottom: $footer-social--inner-padding;
 		}
 	}
 
