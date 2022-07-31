@@ -120,10 +120,6 @@ const Header = ({
                     <li>
                       <Link to="/equipe" onClick={closeMenu}>TIME</Link>
                     </li>
-                    <li>|</li>
-                    <li>
-                      <Link to="/equipe" onClick={closeMenu}>CONTATOS</Link>
-                    </li>
                   </ul>
                 </div>
               </nav>
