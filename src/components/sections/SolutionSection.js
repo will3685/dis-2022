@@ -18,22 +18,22 @@ const data = [
   {
     src: require('../../assets/images/feature-tile-icon-01.svg').default,
     title: "Palestras",
-    subtitle: "Com carga horária flexível, ministramos diferentes instruções temáticas, rodas de conversa e debates sobre práticas inclusivas na saúde, compartilhando estudos e práticas que permeiam temas como especificidades de saúde para a população negra, LGBTQIAP+ e seus atravessamentos."
+    subtitle: "- com carga horária flexível, ministramos diferentes instruções temáticas, rodas de conversa e debates sobre práticas inclusivas na saúde, compartilhando estudos e práticas que permeiam temas como especificidades de saúde para a população negra, LGBTQIAP+ e seus atravessamentos."
   },
   {
     src: require('../../assets/images/feature-tile-icon-02.svg').default,
-    title: "Treinamento",
-    subtitle: "(Para gestores de saúde e profissionais de saúde) - Solução pensada para organizações e empresas de saúde que buscam uma imersão completa no contexto de saúde para a diversidade. Com carga horária média de 12h, distribuídas em acordo com a instituição solicitante, o treinamento conta com abordagens desenhadas tanto para líderes e gestores, quanto para demais profissionais envolvidos. "
+    title: "Treinamento para gestores e profissionais de saúde",
+    subtitle: "para organizações e empresas de saúde que buscam uma imersão completa no contexto de saúde para a diversidade. Com carga horária média de 12h, distribuídas em acordo com a instituição solicitante, o treinamento conta com opções de abordagens desenhadas  tanto para líderes e gestores, quanto para demais profissionais envolvidos. "
   },
   {
     src: require('../../assets/images/feature-tile-icon-03.svg').default,
     title: "Consultoria",
-    subtitle: "Disponível para organizações de diversos fins, empresas e projetos que precisam de estratégias de melhoria e cuidado em saúde mental e física dos colaboradores de grupos minorizados (negres, LGBTQIAP+ ) e consultoria para transformar ambientes e espaços físicos   de trabalhos e hospitais em ambientes mais inclusivos."
+    subtitle: "disponível para organizações de diversos fins, empresas e projetos que precisam de estratégias de melhoria  e cuidado em saúde mental e física dos colaboradores de grupos minorizados (negres, LGBTQIAP+ ) e consultoria para transformar ambientes e espaços físicos   de trabalhos e hospitais em ambientes mais inclusivos."
   },
   {
     src: require('../../assets/images/feature-tile-icon-04.svg').default,
     title: "Selo de Diversidade e Inclusão para hospitais e empresas de Saúde",
-    subtitle: "Para empresas que se comprometem em oferecer atendimento de qualidade, baseado em equidade e diversidade para seus pacientes, investindo em educação continuada de seus profissionais. O selo tem validade de 18 meses."
+    subtitle: "Para empresas que se comprometem em oferecer atendimento de qualidade, baseado em equidade e diversidade para seus pacientes, investindo em educação continuada de seus profissionais. O selo tem validade de 18 meses. "
   }
 ];
 
@@ -69,7 +69,7 @@ const SolutionSection = (
   );
 
   const sectionHeader = {
-    title: 'Nosso time oferece, atualmente, quatro linhas de atuação'
+    title: 'Nosso time oferece 4 linhas de atuação, agende uma conversa para entender nossa metodologia de acordo com a necessidade.'
   };
 
   const feature = data.map( item => {

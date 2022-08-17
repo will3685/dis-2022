@@ -24,10 +24,14 @@
 }
 
 .illustration-section-03::after {
-  @include illustration('spirale.png', 70%, 50%, null, 460px, 150px);
+  @include illustration('11.png', 70%, 50%, null);
 }
 
 // Features illustration 02
 .illustration-section-04::after {
 	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, null);
+}
+
+.illustration-section-05::after {
+	@include illustration('11.png', 100%, 253px, null, null, null);
 }

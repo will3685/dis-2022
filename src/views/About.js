@@ -7,10 +7,10 @@ const data = [
     image: require('../assets/images/office.jpg'),
     title1: "Sobre o instituto",
     title2: "SOBRE NÓS",
-    text1: "Somos o instituto DIS, idealizado e liderado por Dr. Fleury Johnson, médico formado pela UFRJ, especialista em clínica médica, professor, pesquisador e especialista em saúde de população negra.",
-    text2: "O DIS é uma organização sem fins lucrativos que visa promover e ensinar melhores práticas na saúde privada e pública no que tange ao atendimento à população negra historicamente vulnerabilizada e subrepresentada.",
-    text3: "Nosso trabalho contempla a comunidade negra, considerando também as especifidades que resultam de viver múltiplas opressões, como por exemplo, ser uma pessoa negra e pertencer também à comunidade LGBTQIAP+, ser mulher, ser uma pessoa gorda, ser uma pessoa 60+, ser uma pessoa com deficiência (PcD), entre outros.",
-    text4: "Nossa missão é de compartilhar conhecimento de impacto para a experiência do paciente e dos colaborados, promovendo atendimento com equidade e auxiliando na redução dos índices desfavoráveis no âmbito da saude."
+    text1: "Somos o Instituto DIS (Diversidade e Inclusão na Saúde), idealizado e liderado por Dr. Fleury Johnson, médico formado pela UFRJ, especialista em clínica médica, professor, pesquisador e referência em saúde da população negra. ",
+    text2: "O DIS é uma organização sem fins lucrativos que visa promover e ensinar melhores práticas na saúde privada e pública no que tange ao atendimento à população negra, entregando soluções baseadas em dados, demandas coletivas, subjetivas e interseccionais.",
+    text3: "Nossa missão é compartilhar conhecimento de impacto para a experiência do paciente e dos colaboradores, promovendo gestão e atendimento com equidade, auxiliando na redução dos índices desfavoráveis historicamente vivenciados por essa população.",
+    text4: "O Instituto DIS é uma organização intrinsecamente comprometida com uma saúde mais diversa e inclusiva."
   }
 ]
 

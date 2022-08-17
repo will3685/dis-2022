@@ -7,7 +7,7 @@ const Solution = () => {
 
   return (
     <>
-      <SolutionSection />
+      <SolutionSection className="illustration-section-03"/>
     </>
   )
 }

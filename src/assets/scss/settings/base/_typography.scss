@@ -5,10 +5,10 @@ $font--import:      'Inter:400,500,600,700,800';
 
 // The font set
 $font--family: (
-	heading: 	'"Inter", sans-serif',
-	base:		'"Inter", sans-serif',
-	code: 		'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
-	pre: 		'"Courier 10 Pitch", Courier, monospace'
+	heading: 	'"Helvetica", "Univers","Inter", sans-serif',
+	base:		'"Helvetica","Univers","Inter", sans-serif',
+	code: 		'"Helvetica","Univers",Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
+	pre: 		'"Helvetica","Univers","Courier 10 Pitch", Courier, monospace'
 );
 
 // The typographic scale

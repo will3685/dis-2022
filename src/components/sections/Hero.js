@@ -44,9 +44,9 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
         <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom text-color-personal-first" data-reveal-delay="200">
-              Praticar saúde com <span className='text-color-personal-second'>equidade</span>
-            </h1>
+            <h2 className="mt-0 mb-16 reveal-from-bottom text-color-personal-first" data-reveal-delay="200">
+              Experimente o impacto de uma saúde<span className='text-color-personal-second'> inclusiva</span>
+            </h2>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom text-color-personal-third" data-reveal-delay="400">
                 A DIVERSIDADE E INCLUSÃO NA SAÚDE
