@@ -2,11 +2,21 @@ import React from 'react';
 // import section 
 import ContatoSection from '../components/sections/ContatoSection';
 
-const Contato = () => {
+  const data = [
+    {
+      link1: 'https://www.linkedin.com/company/institutodis/'
+    }
+  ]
+
+const Contato = (
+) => {
+
   return (
-    <>
-      <ContatoSection />
-    </>
+   <>
+    <ContatoSection 
+      link1 = {data[0].link1}
+    />
+   </>
   )
 }
 

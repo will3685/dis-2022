@@ -53,26 +53,27 @@ const FeaturesTiles = ({
             <div className = 'split-item-content'>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
+                  'center-content-mobile reveal-from-bottom',
+                  // split-item-image
                   imageFill && 'split-item-image-fill'
                   )}
                   data-reveal-container=".split-item">
-                <h2>{props.title2}</h2>
+                <h3>{props.title2}</h3>
                 <Image
                   src={props.image}
                   alt="Team image"
-                  width={528}
-                  height={396} />
+                  width={480}
+                  height={320} />
               </div> 
             </div>
-              <div>
-                <h3>{props.title1}</h3>
-                <p>{props.text1} </p>
-                <p>{props.text2}</p>
-                <p>{props.text3}</p>
-                <p>{props.text4}</p>
-              </div> 
-            </div>
+            <div>
+              <h3>{props.title1}</h3>
+              <p>{props.text1} </p>
+              <p>{props.text2}</p>
+              <p>{props.text3}</p>
+              <p>{props.text4}</p>
+            </div> 
+          </div>
         </div>
       </div>
     </section>
