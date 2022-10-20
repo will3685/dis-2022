@@ -22,8 +22,8 @@
 			img,
 			svg,
 			video {
-				width: auto;
-				height: auto;
+				// width: auto;
+				// height: auto;
 				max-width: 100%;
 				overflow: visible;
 			}
@@ -86,7 +86,7 @@
 			padding-bottom: $split-item--padding-v__desktop * 0.5;
 			flex-direction: row;
 			flex-wrap: nowrap;
-			align-items: center;
+			// align-items: center;
 			justify-content: flex-start;
 
 			.split-item-content {

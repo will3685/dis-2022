@@ -1,5 +1,8 @@
 .features-tiles {
 
+  min-height: 100vh;
+  padding-bottom: $features-tiles-items--padding__desktop * 1.5;
+
 	.section-inner {
 		padding-top: $features-tiles--padding-t__mobile;
 		padding-bottom: $features-tiles--padding-b__mobile;
@@ -54,6 +57,11 @@
 }
 
 @include media( '>medium' ) {
+
+  .features-tiles-inner {
+    display: flex;
+  }
+  
 
 	.features-tiles {
 

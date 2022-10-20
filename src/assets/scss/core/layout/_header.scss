@@ -13,7 +13,8 @@
 	}
 
 	.brand {
-		margin-right: $header-nav--padding-h;
+		// margin-right: $header-nav--padding-h;
+    margin-right: 0;
 	}	
 }
 
@@ -21,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-	height: $header-height__mobile;
+	  height: $header-height__mobile;
 }
 
 .header-nav {

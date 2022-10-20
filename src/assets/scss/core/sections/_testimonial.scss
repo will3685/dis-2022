@@ -1,4 +1,17 @@
+.testimonial-item-personal {
+  display: flex;
+  flex-direction: row;
+
+  .text-content {
+    width: 70%;
+  }
+
+  .image-content {
+    max-width: 30%;
+  }
+}
 .testimonial {
+
 
 	.section-inner {
 		padding-top: $testimonial--padding-t__mobile;

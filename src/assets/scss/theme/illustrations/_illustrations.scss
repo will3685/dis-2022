@@ -16,10 +16,22 @@
 
 // Hero illustration
 .illustration-section-01::after {
-	@include illustration('illustration-01.svg', 100%, 100%, top);
+	@include illustration('illustration-section-03.png', 660px, 78%, null, null, 30px);
+}
+
+.illustration-section-02::after {
+	@include illustration('curva.png', 280px, 20%, null, 460px, 150px)
+}
+
+.illustration-section-03::after {
+  @include illustration('11.png', 70%, 50%, null);
 }
 
 // Features illustration 02
-.illustration-section-02::after {
-	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, 30px);
+.illustration-section-04::after {
+	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, null);
+}
+
+.illustration-section-05::after {
+	@include illustration('11.png', 100%, 253px, null, null, null);
 }

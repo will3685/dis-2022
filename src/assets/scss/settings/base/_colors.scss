@@ -5,7 +5,8 @@ $palette: (
 	light: (
 		1: #ECEDED,
 		2: #9CA9B3,
-		3: #717D86
+		3: #717D86,
+    4: #fff
 	),
 	dark: (
 		1: #151719,
@@ -30,11 +31,12 @@ $palette: (
 		success: #24E5AF
 	),
   personal: (
-    1: #E01E2B,
+    1: #db0e1e,
     2: #4D96FF,
     3: #015C83,
-    4: #73C1EB,
-    5: #F3ECE2
+    4: #85c5ee,
+    5: #F3ECE2,
+    6: #045781
     
   )
 );
@@ -47,6 +49,9 @@ $color: (
 	mid-contrast: 			get-color(light, 2),
 	low-contrast: 			get-color(light, 3),
 	primary:				get-color(primary, 3),
+  personal-first: get-color(personal, 6),
+  personal-second: get-color(personal, 1),
+  personal-third: get-color(personal, 4),
 	secondary:				get-color(secondary, 1),
 	error:					get-color(alert, error),
 	warning:				get-color(alert, warning),
@@ -83,7 +88,8 @@ $icon--color: (
 
 // Misc elements: background color
 $bg--color: (
-	body: 			get-color(dark, 1),
+	// body: 			get-color(dark, 1),
+  body: 			get-color(light, 4),
 	body-shadow:	0 20px 48px rgba(get-color(dark, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
 	body-outer:		lighten(get-color(dark, 1), 2%),			// outer bg color when a boxed layout is used
 	bg-color: 		lighten(get-color(light, 1), 9%),			// .has-bg-color helper class

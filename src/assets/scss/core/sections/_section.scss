@@ -10,10 +10,10 @@
 
 @include media( '>medium' ) {
 
-    .section-inner {
-        padding-top: $section--padding__desktop;
-        padding-bottom: $section--padding__desktop;
-    }
+    // .section-inner {
+    //     padding-top: $section--padding__desktop;
+    //     padding-bottom: $section--padding__desktop;
+    // }
 
 	.section-header {
 		padding-bottom: $section-header--padding__desktop;
