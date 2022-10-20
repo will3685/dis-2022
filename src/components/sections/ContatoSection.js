@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
+import SectionHeader from './partials/SectionHeader';
+import Features from './partials/Features';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -20,12 +22,7 @@ const ContatoSection = (
   bottomDivider,
   hasBgColor,
   invertColor,
-  invertDesktop,
-  invertMobile,
-  alignTop,
-  imageFill,
-  pushLeft,
-  ...props
+  pushLeft
 ) => {
 
   const outerClasses = classNames(
@@ -37,20 +34,59 @@ const ContatoSection = (
     className
   );
 
-  const splitClasses = classNames(
-    'split-wrap',
-    invertMobile && 'invert-mobile',
-    invertDesktop && 'invert-desktop',
-    alignTop && 'align-top'
+  const innerClasses = classNames(
+    ' section-inner illustration-section-03',
+    topDivider && 'has-top-divider',
+    bottomDivider && 'has-bottom-divider'
   );
+
+  const tilesClasses = classNames(
+    'tiles-wrap center-content',
+    pushLeft && 'push-left'
+  );
+
+  const sectionHeader = {
+    title: 'Entre em contato conosco'
+  };
+
+  const data = [
+    {
+      src: "",
+      title: "LinkedIn",
+      icon: ""
+    },
+    {
+      src: "https://instagram.com/institutodis?igshid=YmMyMTA2M2Y=",
+      title: "Instagram",
+      icon: ""
+    },
+    {
+      src: "contato@institutodis.com",
+      title: "Email",
+      icon: ""
+    }
+  ]
+
+  const feature = data.map( item => {
+    return (
+      <Features
+        key={item.title}
+        title={item.title}
+      />
+    )
+  })
 
   return (
     <section
-    {...props}
     className={outerClasses}
   >
     <div className="container">
-      <p>{props.link1}</p>
+      <div className={innerClasses}>
+        <SectionHeader data={sectionHeader} className="center-content" />
+        <div className={tilesClasses}>
+          {feature}
+        </div>
+      </div>
     </div>
    
   </section>
