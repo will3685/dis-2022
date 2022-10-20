@@ -83,7 +83,7 @@ const Testimonial = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/5.png')}
+                  src={require('../../assets/images/6.png')}
                   alt="Features split 01"
                   width={300}
                   height={240} />
@@ -105,7 +105,7 @@ const Testimonial = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/7.png')}
+                  src={require('../../assets/images/2.png')}
                   alt="Features split 01"
                   width={300}
                   height={240} />
@@ -127,7 +127,7 @@ const Testimonial = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/6.png')}
+                  src={require('../../assets/images/5.png')}
                   alt="Features split 01"
                   width={300}
                   height={240} />
@@ -149,7 +149,7 @@ const Testimonial = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/8.png')}
+                  src={require('../../assets/images/3.png')}
                   alt="Features split 01"
                   width={300}
                   height={240} />

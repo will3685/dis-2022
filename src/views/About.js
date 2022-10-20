@@ -4,7 +4,7 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 
 const data = [
   {
-    image: require('../assets/images/time-foto.png'),
+    image: require('../assets/images/1.1.png'),
     title1: "Sobre o instituto",
     title2: "SOBRE NÓS",
     text1: "Somos o Instituto DIS (Diversidade e Inclusão na Saúde), idealizado e liderado por Dr. Fleury Johnson, médico formado pela UFRJ, especialista em clínica médica, professor, pesquisador e referência em saúde da população negra. ",
