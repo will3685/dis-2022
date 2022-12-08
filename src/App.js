@@ -8,10 +8,10 @@ import ScrollReveal from './utils/ScrollReveal';
 import LayoutDefault from './layouts/LayoutDefault';
 
 import Home from './views/Home';
-import About from './views/About';
-import Solution from './views/Solution';
-import Equipe from './views/Equipe';
-import Contato from './views/Contato'
+// import About from './views/About';
+// import Solution from './views/Solution';
+// import Equipe from './views/Equipe';
+// import Contato from './views/Contato'
 
 
 
@@ -42,10 +42,10 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault}/>
-          <AppRoute exact path="/quem-somos" component={About} layout={LayoutDefault} />
+          {/* <AppRoute exact path="/quem-somos" component={About} layout={LayoutDefault} />
           <AppRoute exact path="/nossa-solucao" component={Solution} layout={LayoutDefault} />
           <AppRoute exact path="/equipe" component={Equipe} layout={LayoutDefault} />
-          <AppRoute exact path="/contato" component={Contato} layout={LayoutDefault} />
+          <AppRoute exact path="/contato" component={Contato} layout={LayoutDefault} /> */}
         </Switch>
       )} />
   );

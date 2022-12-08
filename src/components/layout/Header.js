@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -109,7 +109,7 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
+                    {/* <li>
                       <Link to="/" onClick={closeMenu}>HOME</Link>
                     </li>
                     <li>|</li>
@@ -120,10 +120,10 @@ const Header = ({
                     <li>
                       <Link to="/nossa-solucao" onClick={closeMenu}>NOSSAS SOLUÇÕES</Link>
                     </li>
-                    <li>|</li>
-                    <li>
+                    <li>|</li> */}
+                    {/* <li>
                       <Link to="/equipe" onClick={closeMenu}>TIME</Link>
-                    </li>
+                    </li> */}
                     {/* <li>|</li>
                     <li>
                       <Link to="/contato" onClick={closeMenu}>CONTATO</Link>
