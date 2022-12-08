@@ -45,7 +45,7 @@ const Hero = ({
         <div className={innerClasses}>
         <div className="hero-content">
             <h2 className="mt-0 mb-16 reveal-from-bottom text-color-personal-first" data-reveal-delay="200">
-            Nosso site estará em breve no ar, mas você já pode nos enviar um e-mail se quiser: contato@institutodis.com.br \n Até já! Dr. Fleury Johnson e time DIS
+            Nosso site estará em breve no ar, mas você já pode nos enviar um e-mail se quiser: contato@institutodis.com.br <br></br> Até já! Dr. Fleury Johnson e time DIS
         {/* <span className='text-color-personal-second'> inclusiva</span> */}
             </h2>
             <div className="container-xs">
